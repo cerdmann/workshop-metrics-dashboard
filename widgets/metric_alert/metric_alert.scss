@@ -1,0 +1,43 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$alert-background-color:  #ff4136;
+$ok-background-color:  #3D9970;
+
+$title-color:       rgba(255, 255, 255, 0.8);
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-metric-alert {
+
+  background-color: $ok-background-color;
+
+  .title {
+    display: block;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 520;
+    color: $title-color;
+  }
+
+  .number-holder {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .number-holder div {
+    display: inline-block;
+  }
+
+  .divider {
+    padding: 0px 20px;
+    color: $title-color;
+  }
+}
+
+.danger {
+  background: $alert-background-color;
+}
