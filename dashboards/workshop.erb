@@ -1,10 +1,16 @@
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="number_of_apps" data-view="Alert" data-addclass-danger="hasNotPassed"></div>
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+      <div data-id="header" data-view="WorkshopHeader" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="Protip: You can drag the widgets around!"></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="expected_apps" data-view="MetricAlert" data-addclass-danger="hasNotPassed"></div>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="expected_apps" data-view="MetricAlert" data-addclass-passed="hasPassed" data-title="Expected Apps"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="expected_instances" data-view="MetricAlert" data-addclass-passed="hasPassed" data-title="Expected Instances"></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="expected_services" data-view="MetricAlert" data-addclass-passed="hasPassed" data-title="Expected Services"></div>
     </li>
   </ul>
 </div>

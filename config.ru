@@ -1,7 +1,7 @@
 require 'dashing'
 
 configure do
-  set :auth_token, 'YOUR_AUTH_TOKEN'
+  set :auth_token, 'fpE4GMy0XTQT749'
   set :default_dashboard, 'workshop'
 
   # See http://www.sinatrarb.com/intro.html > Available Template Languages on
@@ -20,4 +20,5 @@ map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
 
+Sinatra::Application.settings.history.clear()
 run Sinatra::Application

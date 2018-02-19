@@ -1,13 +1,28 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #4b4b4b;
+$background-color:  #008774;
+
+$text-color:       rgba(255, 255, 255, 0.9);
 
 // ----------------------------------------------------------------------------
-// Widget-image styles
+// Widget-text styles
 // ----------------------------------------------------------------------------
-.widget-image {
+.widget-workshop-header {
 
   background-color: $background-color;
 
+  .pivotal-image {
+    display: inline;
+  }
+  .title-holder {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 520;
+    color: $text-color;
+  }
+  .logo {
+    height: 225px;
+  }
 }
