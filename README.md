@@ -1,1 +1,1 @@
-Check out http://smashing.github.io/smashing for more information.
+Built with: http://smashing.github.io/smashing.

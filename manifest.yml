@@ -1,0 +1,5 @@
+---
+applications:
+- name: workshop-metrics-dashboard 
+  memory: 256M 
+  instances: 1
